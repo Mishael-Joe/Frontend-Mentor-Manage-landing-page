@@ -1,4 +1,4 @@
-import { Splide, SplideSlide } from '@splidejs/react-splide';
+import { Splide, SplideSlide } from 'react-splide-ts';
 import '@splidejs/react-splide/css';
 
 import Anisha from '../assets/avatar-anisha.png'
@@ -19,7 +19,7 @@ const Review = () => {
             focus  : 'center',
             arrows:  false,
             type: 'loop',
-            autoplay: 'play',
+            autoplay: true,
             speed: 1000,
             interval: 5000,
             width : 1200,
